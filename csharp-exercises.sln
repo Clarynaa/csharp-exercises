@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26114.2
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayPrinter", "DayPrinter\DayPrinter.csproj", "{B3E76AAA-3BE8-49C7-A831-64EF68C6F28D}"
 EndProject
@@ -16,9 +16,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookDict", "GradebookD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "GradebookArray\GradebookArray.csproj", "{89051A0E-8D18-48C3-B4E6-D05F62D252CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{90C18C5F-EB73-47E9-82CA-062F629528D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{90C18C5F-EB73-47E9-82CA-062F629528D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area.csproj", "{EC0419A1-BE72-4D6D-972E-8A73163B54DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Area", "Area\Area.csproj", "{EC0419A1-BE72-4D6D-972E-8A73163B54DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingLetters", "CountingLetters\CountingLetters.csproj", "{77468354-36FD-45F4-87B9-90FD344CEE34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,10 @@ Global
 		{EC0419A1-BE72-4D6D-972E-8A73163B54DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC0419A1-BE72-4D6D-972E-8A73163B54DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC0419A1-BE72-4D6D-972E-8A73163B54DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77468354-36FD-45F4-87B9-90FD344CEE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77468354-36FD-45F4-87B9-90FD344CEE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77468354-36FD-45F4-87B9-90FD344CEE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77468354-36FD-45F4-87B9-90FD344CEE34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
