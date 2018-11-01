@@ -8,17 +8,15 @@ namespace Area
         {
             Console.Write("Enter a radius: ");
             float r = float.Parse(Console.ReadLine());
-            if (r < 0)
+            while (r < 0)
             {
-                Console.WriteLine("Error!  Number negative!");
-                Console.ReadLine();
+                Console.WriteLine("Error!  Number negative! Please enter a positive number.");
+                r = float.Parse(Console.ReadLine());
             }
-            else
-            {
-                var area = 3.14 * r * r;
-                Console.WriteLine("The area of a circle with radius " + r + " is: " + Math.Round(area, 3));
-                Console.ReadLine();
-            }
+            var area = 3.14 * r * r;
+            Console.WriteLine("The area of a circle with radius " + r + " is: " + Math.Round(area, 3));
+            Console.WriteLine("Any key to end.");
+            Console.ReadLine();
         }
     }
 }

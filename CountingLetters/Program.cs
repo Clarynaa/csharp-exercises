@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CountingLetters
 {
@@ -41,6 +42,17 @@ namespace CountingLetters
             {
                 Console.Out.WriteLine(pair.Key + ": " + pair.Value);
             }
+
+            Console.Out.WriteLine("-----------------------------------------");
+            List<char> letters = letterCount.Keys.ToList();
+            letters.Sort();
+
+            foreach (char letter in letters)
+            {
+                Console.Out.WriteLine(letter + ": " + letterCount[letter]);
+            }
+
+
             Console.ReadLine();
 
         }
